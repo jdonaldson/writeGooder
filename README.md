@@ -6,7 +6,7 @@ english language "linter".  This version comes with a single command :
 :WriteGooder
 ```
 
-This will execute the write-gooder script on the current document and populate
+This will execute the write-good script on the current document and populate
 and open the quickfix window.
 
 There is another version of this script available from
