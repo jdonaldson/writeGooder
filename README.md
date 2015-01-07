@@ -41,3 +41,7 @@ To update, just run `:BundleUpdate`
 1. Install VAM using the [instructions][vam]
 2. Add writeGooder to the list of your activated bundles and re-source it:
     `call vam#ActivateAddons(['github:jdonaldson/writeGooder'])`
+
+[pathogen]:https://github.com/tpope/vim-pathogen
+[vundle]:https://github.com/gmarik/vundle
+[vam]:https://github.com/MarcWeber/vim-addon-manager
