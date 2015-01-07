@@ -6,14 +6,14 @@ function! writeGooder#lint()
         finish
     endif
 
-    let lint_output = system(wgx, shellescape(expand("%")))
+    let lint_output = system(wgx . " " . shellescape(expand("%")))
     let old_efmt = &l:errorformat
-    let &l:errorformat = "%-GIn %f
-                \, %-G^%*
-                \, %E"%m"%m on line %l at column %c
-                \, %-G-%*"
-    cgete(lint_output)
-
+    let &errorformat = "%-PIn %f,
+             \%E%m on line %l at column %c,
+             \%-G%m"
+    cexpr(lint_output)
+    let &errorformat = old_efmt
+    copen
 endfunction
 
 
