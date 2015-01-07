@@ -30,11 +30,11 @@ To update:
 # Install with Vundle
 
 1. Install vundle using the [instructions][vundle]
-2. Add writeGooder to your bundle list in `.vimrc` and re-source it:
-    `Bundle 'jdonaldson/writeGooder'`
-3. Run `:BundleInstall`
+2. Add writeGooder to your plugin list in `.vimrc` and re-source it:
+    `Plugin 'jdonaldson/writeGooder'`
+3. Run `:PluginInstall`
 
-To update, just run `:BundleUpdate`
+To update, just run `:PluginUpdate`
 
 # Install with VAM
 
