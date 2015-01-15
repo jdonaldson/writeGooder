@@ -6,4 +6,4 @@
 " let g:loaded_writeGooder_plugin = 1
 
 
-command WriteGooder call writeGooder#lint() 
+command! WriteGooder call writeGooder#lint() 
